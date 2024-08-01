@@ -1,0 +1,47 @@
+/* body{
+    background: linear-gradient(purple, blue);
+    background-image: url(Files/Image/Blue.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+pre{
+    border-radius: 5px;
+    border-style: inset;
+    padding: 2px;
+    font-size: larger;
+    font-family: "comic neue";
+    font-weight: bold;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Responsive navigation menu */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Responsive layout for smaller screens */
+@media screen and (max-width: 600px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
