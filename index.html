@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-        <title>
-            nothing
-        </title>
-    </head>
-    <body>
-        <h1>New test 1</h1>
-        <hr>
-        <br>
-        <h2>New test 2</h2>
-        <br>
-        <hr>
-        <p>Loreme?</p>
-        <br>
-        <hr>
-    </body>
-    <body>
-        <a href="index2.html" target="_self" title="Go to page 2">
-            Page 2    
-        </a>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Responsive Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="index3.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="Services.html">Services</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+    <div class="container">
+      <h1>Welcome to My Website</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo
+        vel libero tincidunt aliquet.
+      </p>
+    </div>
+    <script>
+      // Example JavaScript for interactivity
+      const heading = document.querySelector("h1");
+      heading.addEventListener("click", () => {
+        heading.style.color = "blue";
+      });
+    </script>
+  </body>
 </html>

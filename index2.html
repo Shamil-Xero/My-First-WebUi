@@ -3,15 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1>
-    <a href="index.html" title="Go to Home page">
-        Home page
-    </a>
 
-    </h1>
+<body>
+<br>
+<a href="index2.html" target="_self" title="Go to page 2">
+    <h1>Page 2</h1>
+</a>
+
+<p>
+    Tokyo is the capital of Japan, the most populous <em>metropolitan</em> area in the world.
+</p>
+
+<pre style="align-self: center;">If robots use <b>batteries</b>, it <i>explains</i> why we have
+so <big>many</big> of them in the <small>plastic</small> bin in the laundry
+room. I’m not exactly sure where the batteries
+GO, but I do have a few guesses.</pre>
+
+<audio autoplay id="myaudio" loop>
+    <source src="Files\Audio\perfect-beauty.mp3">
+</audio>
+
+<br>
+<!-- <img src="Files\Image\Blue.jpeg" title="Test Image" width="400"> -->
+        
+<script>
+    var audio = document.getElementById("myaudio");
+    audio.volume = 0.01;
+</script>
+
+<a href="https://www.youtube.com/" target="_blank">
+    <video autoplay loop muted width="500" title="YouTube?">
+        <source src="Files\Video\Desert Portal.mp4">
+    </video>
+</a>
+
+
+
 
 </body>
 </html>
